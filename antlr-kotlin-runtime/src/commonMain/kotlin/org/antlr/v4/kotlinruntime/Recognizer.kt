@@ -157,7 +157,7 @@ abstract class Recognizer<Symbol, ATNInterpreter : ATNSimulator> {
 
     //abstract var inputStream: CharStream?
 
-    protected var inputStream: IntStream? = null
+    protected open var inputStream: IntStream? = null
 
     abstract fun assignInputStream(newValue: IntStream?)
     abstract fun readInputStream(): IntStream?
