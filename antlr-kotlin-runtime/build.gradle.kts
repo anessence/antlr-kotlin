@@ -18,7 +18,7 @@ apply(plugin = "maven-publish")
 kotlin {
     jvm()
     js(BOTH) {
-        browser {G
+        browser {
         }
         nodejs {
         }
